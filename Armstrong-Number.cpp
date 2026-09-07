@@ -17,8 +17,9 @@ public:
 
         while(n > 0) {
 
-            int power = 1;
             int ld = n % 10;
+            
+            int power = 1;
 
             for(int i = 0; i < digits; i++) {
                 power = power * ld;
